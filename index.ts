@@ -7,7 +7,7 @@ const mountedRoutes = new Map<string, Hono>();
 
 export async function loadRoutes(
   app: Hono,
-  baseDir = "./api",
+  baseDir = "./src/api",
   basePath = "",
   parentMiddlewares: MiddlewareHandler[] = [],
   isDev = false
